@@ -14,6 +14,8 @@ O projeto será iniciado na porta 4200.
 
 O projeto inicia na página principal.
 
+O cabeçalho possui links para melhor navegação.
+
 Ao clicar em **Lista de Notícias** no cabeçalho, o projeto consume a api `https://jsonplaceholder.typicode.com/posts`, utilizando o método GET, e mostra cada _notícia_ em um card diferente.
 
 Ao clicar no link **Ler mais** de alguma notícia, uma tela de detalhamento é mostrada com as informações dessa notícia em específico.
