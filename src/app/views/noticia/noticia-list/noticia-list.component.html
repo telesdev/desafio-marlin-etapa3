@@ -1,0 +1,17 @@
+<div id='title'>
+    <h1>Exibindo resultado de busca por "Covid 19"</h1>
+    <h2>Encontramos um total de {{noticias?.length}} resultados para sua busca</h2>
+</div>
+<div id='noticia-list-container'>
+    <div id='content'>
+        <div class='card' *ngFor="let noticia of noticias">
+            <img src="https://static.biologianet.com/2020/03/covid.jpg" alt='Imagem Covid'>
+            <div class='card-info-container'>
+                <h3>{{noticia.title}}</h3>
+                <h4>{{noticia.body}}</h4>
+                <a routerLink='/detail/{{noticia.id}}' routerLinkActive="active">Ler mais</a>
+            </div>
+        </div>
+    </div>
+    <app-aside></app-aside>
+</div>

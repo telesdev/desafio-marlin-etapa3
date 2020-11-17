@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: ghostwhite;
+    padding: 20px 0;
+}
+
+ul li {
+    display: inline;
+    padding: 0 0 0 30px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media all and (max-width: 800px) {
+    nav {
+        padding: 0;
+    }
+
+    ul, li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+    li {
+        margin: 5px;
+    }
+}
