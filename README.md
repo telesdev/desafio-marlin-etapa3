@@ -1,27 +1,33 @@
 # MarlinDesafio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 10.2.0.
 
-## Development server
+## Início do projeto e instalação das dependências
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`npm install`
 
-## Code scaffolding
+`ng serve`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto será iniciado na porta 4200.
 
-## Build
+# Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+O projeto inicia na página principal.
 
-## Running unit tests
+Ao clicar em **Lista de Notícias** no cabeçalho, o projeto consume a api `https://jsonplaceholder.typicode.com/posts`, utilizando o método GET, e mostra cada _notícia_ em um card diferente.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ao clicar no link **Ler mais** de alguma notícia, uma tela de detalhamento é mostrada com as informações dessa notícia em específico.
 
-## Running end-to-end tests
+Clicando em **Nova Notícia** no cabeçalho, uma tela com um formulário é mostrada. Ao preencher o formulário com as informações e clicar no botão **Confirmar**, o sistema manda um alerta para o usuário com as informações inseridas. É criada, também, uma tag com os valores em forma json e um console.log com a resposta da requisição *Post* também é exibido.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Responsividade foi implantada.
 
-## Further help
+## Rotas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+'' - Página principal
+
+'/list' - Listagem das notícias
+
+'/form' - Inserir nova notícia
+
+'detail/:id' - Detalhar uma notícia específica
