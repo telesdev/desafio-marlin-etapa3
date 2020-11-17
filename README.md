@@ -10,7 +10,7 @@ O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) v
 
 O projeto será iniciado na porta 4200.
 
-# Requisitos
+# Funcionalidades
 
 O projeto inicia na página principal.
 
