@@ -33,3 +33,7 @@ Responsividade foi implantada.
 '/form' - Inserir nova notícia
 
 'detail/:id' - Detalhar uma notícia específica
+
+## Try Me
+
+Clique [aqui](https://desafio-marlin.vercel.app/) e confira uma versão do projeto em produção
